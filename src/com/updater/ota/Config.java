@@ -33,7 +33,7 @@ public class Config {
     
     public static final int WAKE_TIMEOUT = 30000;
     
-    public static final String DL_PATH = Environment.getExternalStorageDirectory() + "/OTA-Updater/download/";
+    public static final String DL_PATH = "/sdcard2/OTA-Updater/download/";
     public static final File DL_PATH_FILE = new File(Config.DL_PATH);
     static {
         DL_PATH_FILE.mkdirs();
